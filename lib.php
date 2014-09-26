@@ -39,16 +39,16 @@ class tinymce_eocontenteffect extends editor_tinymce_plugin {
 
 
 //	    $contextmodule = context_module::instance($cm->id);		
-            $filters = filter_get_active_in_context($context);
+/*            $filters = filter_get_active_in_context($context);
             if (!array_key_exists('marvintinymcestudent', $filters)) {
                 return;
             }
-
-/*	if (!has_capability('moodle/course:viewhiddensections', $context)) {
+*/
+	if (!has_capability('moodle/course:viewhiddensections', $context)) {
 
 	return;
 	}
-*/
+
 	$this->add_button_after($params, 1, 'eocontenteffect');
         // Add JS file, which uses default name.
         $this->add_js_plugin($params);
