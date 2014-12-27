@@ -10,7 +10,7 @@ For more info and a demo checkout http://www.easyochem.com/eolms/mod/forum/discu
 Youll need this css added to your custom css section of your theme
 
 
-/* for eocontentquestion */
+
 .ot-hidden {
  position: absolute;
  left: -999em;
