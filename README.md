@@ -10,7 +10,7 @@ For more info and a demo checkout http://www.easyochem.com/eolms/mod/forum/discu
 Youll need this css added to your custom css section of your theme
 
 
-
+```HTML
 .ot-hidden {
  position: absolute;
  left: -999em;
@@ -81,3 +81,4 @@ margin-top: 10px;
     background: #2E5481;
     border: solid 1px #203E5F;
 }
+```
